@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_rl"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="24dp"
+    android:gravity="top">
+
+    <TextView
+        android:id="@+id/main_textview_key"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter an API Key for openweathermap.org/api" />
+
+    <EditText
+        android:id="@+id/main_edittext_key"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/main_textview_key"
+        android:inputType="text"
+        android:text=""
+        android:layout_marginBottom="55dp"/>
+
+    <TextView
+        android:id="@+id/main_textview_zip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/main_edittext_key"
+        android:text="Enter a ZIP Code" />
+
+    <EditText
+        android:id="@+id/main_edittext_zip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/main_textview_zip"
+        android:inputType="number"
+        android:maxLength="10"
+        android:text="12345" />
+
+<!--    <TextView-->
+<!--        android:id="@+id/main_textview_info"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@id/main_textview_zip"-->
+<!--        android:text="Some directions to add the widget to the home screen?"-->
+<!--        android:textColor="@color/colorBlackText" />-->
+
+</RelativeLayout>

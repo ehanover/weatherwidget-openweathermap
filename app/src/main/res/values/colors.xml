@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#eddd55</color>
+    <color name="colorPrimaryDark">#ddca21</color>
+<!--    <color name="colorAccent">#D81B60</color>-->
+    <color name="colorAccent">#569EDD</color>
+
+    <color name="colorWidgetBackground">#A86bace5</color>
+<!--    <color name="colorWidgetListBackground">#C860ADFF</color>-->
+    <color name="colorWidgetText">#FFFFFF</color>
+    <color name="colorBlackText">#000000</color>
+
+    <color name="black">#000000</color>
+
+</resources>

@@ -1,0 +1,20 @@
+<resources>
+    <dimen name="widget1_margin">8dp</dimen>
+    <dimen name="widget1_min_width">250dp</dimen>
+    <dimen name="widget1_min_height">90dp</dimen>
+
+
+    <dimen name="widget1_row_ll_padding_edges">8dp</dimen>
+    <dimen name="widget1_row_background_width">250dp</dimen>
+    <dimen name="widget1_row_height">32dp</dimen>
+    <dimen name="widget1_row_padding_vertical">1dp</dimen>
+    <dimen name="widget1_row_imageview_condition_size">25dp</dimen>
+
+    <dimen name="widget1_row_padding_item">6dp</dimen>
+
+</resources>
+
+<!-- dp = (cells * 70) - 30 -->
+
+<!-- <dimen name="widget1_min_width">250dp</dimen>
+    <dimen name="widget1_min_height">110dp</dimen> -->
